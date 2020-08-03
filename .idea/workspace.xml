@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5a9ade1c-bc13-4152-94ac-43cc074e016e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GidAssistant-Back.iml" beforeDir="false" afterPath="$PROJECT_DIR$/GidAssistant-Back.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,8 +28,12 @@
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
       </MavenImportingSettings>
     </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
   </component>
   <component name="ProjectId" id="1fN5YLkWKKtz1tAR4Ln9mvHWIpg" />
   <component name="PropertiesComponent">
@@ -43,7 +48,7 @@
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -81,7 +86,7 @@
       <workItem from="1596094050643" duration="4867000" />
       <workItem from="1596269427657" duration="18810000" />
       <workItem from="1596376465955" duration="7062000" />
-      <workItem from="1596449128037" duration="1477000" />
+      <workItem from="1596449128037" duration="2011000" />
     </task>
     <task id="LOCAL-00001" summary="deleted kotlin">
       <created>1596455291611</created>
@@ -90,7 +95,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596455291611</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="deleted maven target">
+      <created>1596455434004</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1596455434004</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,6 +123,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="deleted kotlin" />
-    <option name="LAST_COMMIT_MESSAGE" value="deleted kotlin" />
+    <MESSAGE value="deleted maven target" />
+    <option name="LAST_COMMIT_MESSAGE" value="deleted maven target" />
   </component>
 </project>
