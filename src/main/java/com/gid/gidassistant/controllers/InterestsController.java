@@ -8,6 +8,8 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.Arrays;
+
 @Controller
 @RequestMapping("/interests")
 public class InterestsController {
@@ -18,6 +20,9 @@ public class InterestsController {
     @GetMapping("/getAll")
     public ResponseEntity<?> getAllInterests() {
         try {
+            String s = "Строка что-то там получается";
+            int index = s.lastIndexOf("там");
+            System.out.println(index);
             return new ResponseEntity<>(service.getAll(), HttpStatus.OK);
         } catch (InternalError | Exception e) {
             return new ResponseEntity<>(HttpStatus.INTERNAL_SERVER_ERROR);
