@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a9ade1c-bc13-4152-94ac-43cc074e016e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gid/gidassistant/controllers/InterestsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gid/gidassistant/controllers/InterestsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -82,6 +80,7 @@
       <workItem from="1596094050643" duration="4867000" />
       <workItem from="1596269427657" duration="18810000" />
       <workItem from="1596376465955" duration="7062000" />
+      <workItem from="1596449128037" duration="622000" />
     </task>
     <servers />
   </component>
@@ -93,7 +92,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
